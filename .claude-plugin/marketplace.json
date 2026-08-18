@@ -11,7 +11,7 @@
       "name": "agt-governance-opencode",
       "source": "./agent-governance-opencode",
       "description": "AGT governance plugin for OpenCode CLI sessions",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "author": {
         "name": "Microsoft Corporation",
         "email": "agentgovtoolkit@microsoft.com"
