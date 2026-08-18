@@ -1,5 +1,5 @@
 name: agt-governance-opencode
-version: 5.0.3
+version: 5.0.4
 description: OpenCode governance plugin for Agent Governance Toolkit
 author: Microsoft Corporation
 license: MIT
@@ -20,7 +20,7 @@ dependencies:
     args:
     - --yes
     - --package
-    - 'github:NineLivesDemo/agent-governance-opencode#v5.0.3'
+    - 'github:NineLivesDemo/agent-governance-opencode#v5.0.4'
     - agt-opencode-mcp
 includes: auto
 devDependencies:
