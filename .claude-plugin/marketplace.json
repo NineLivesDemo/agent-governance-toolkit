@@ -1,31 +1,52 @@
 {
   "name": "agent-governance-toolkit",
   "owner": {
-    "name": "Microsoft Corporation",
-    "email": "agentgovtoolkit@microsoft.com"
+    "name": "NineLivesDemo",
+    "email": "adrian@github.ninelives.adriangarciacruz.com"
   },
-  "description": "Agent Governance Toolkit plugins for Claude Code",
+  "description": "Agent Governance Toolkit plugins for OpenCode and Copilot CLI",
   "version": "5.0.0",
   "plugins": [
     {
-      "name": "agt-governance",
-      "source": "./agent-governance-claude-code",
-      "description": "AGT governance hooks and MCP tools for Claude Code sessions",
+      "name": "agt-governance-opencode",
+      "source": "./agent-governance-opencode",
+      "description": "AGT governance plugin for OpenCode CLI sessions",
       "version": "5.0.0",
       "author": {
         "name": "Microsoft Corporation",
         "email": "agentgovtoolkit@microsoft.com"
       },
-      "homepage": "https://github.com/microsoft/agent-governance-toolkit/tree/main/agent-governance-claude-code",
-      "repository": "https://github.com/microsoft/agent-governance-toolkit",
+      "homepage": "https://github.com/NineLivesDemo/agent-governance-toolkit/tree/main/agent-governance-opencode",
+      "repository": "https://github.com/NineLivesDemo/agent-governance-toolkit",
       "license": "MIT",
       "category": "security",
       "tags": [
         "agent-governance",
-        "claude-code",
+        "opencode",
         "security",
         "policy",
         "mcp"
+      ]
+    },
+    {
+      "name": "agt-governance-copilot-cli",
+      "source": "./agent-governance-copilot-cli",
+      "description": "AGT governance plugin for GitHub Copilot CLI sessions",
+      "version": "5.0.0",
+      "author": {
+        "name": "Microsoft Corporation",
+        "email": "agentgovtoolkit@microsoft.com"
+      },
+      "homepage": "https://github.com/NineLivesDemo/agent-governance-toolkit/tree/main/agent-governance-copilot-cli",
+      "repository": "https://github.com/NineLivesDemo/agent-governance-toolkit",
+      "license": "MIT",
+      "category": "security",
+      "tags": [
+        "agent-governance",
+        "copilot",
+        "copilot-cli",
+        "security",
+        "policy"
       ]
     }
   ]
