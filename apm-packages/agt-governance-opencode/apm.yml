@@ -1,0 +1,28 @@
+name: agt-governance-opencode
+version: 5.0.1
+description: OpenCode governance plugin for Agent Governance Toolkit
+author: Microsoft Corporation
+license: MIT
+repository: https://github.com/NineLivesDemo/agent-governance-toolkit
+homepage: https://github.com/NineLivesDemo/agent-governance-toolkit/tree/main/apm-packages/agt-governance-opencode
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-build, kiro, opencode, windsurf
+targets:
+- opencode
+dependencies:
+  apm: []
+  mcp:
+  - name: agt_governance
+    registry: false
+    transport: stdio
+    command: npx
+    args:
+    - --yes
+    - --package
+    - '@microsoft/agent-governance-opencode@5.0.1'
+    - agt-opencode-mcp
+includes: auto
+devDependencies:
+  apm: []
+scripts: {}

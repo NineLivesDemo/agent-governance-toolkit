@@ -4,6 +4,9 @@
   "description": "Public Preview — OpenCode CLI governance plugin for Agent Governance Toolkit developer protection policies",
   "type": "module",
   "main": "src/index.mjs",
+  "bin": {
+    "agt-opencode-mcp": "./bin/agt-mcp"
+  },
   "exports": {
     ".": "./src/index.mjs",
     "./policy": "./lib/policy.mjs",

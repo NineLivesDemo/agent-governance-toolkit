@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "agt-governance-opencode",
-      "source": "./agent-governance-opencode",
-      "description": "AGT governance plugin for OpenCode CLI sessions",
+      "source": "./apm-packages/agt-governance-opencode",
+      "description": "AGT OpenCode package with APM-managed MCP registration",
       "version": "5.0.1",
       "author": {
         "name": "Microsoft Corporation",
