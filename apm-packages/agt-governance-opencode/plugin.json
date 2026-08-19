@@ -1,0 +1,7 @@
+{
+  "name": "agt-governance-opencode",
+  "version": "5.0.6",
+  "description": "OpenCode governance plugin for Agent Governance Toolkit",
+  "author": "Microsoft Corporation",
+  "license": "MIT"
+}
